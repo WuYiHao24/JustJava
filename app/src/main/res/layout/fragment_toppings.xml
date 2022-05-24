@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Americano -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="sugarDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/sugar"
+                        style="@style/ProductImage"
+                        android:src="@drawable/sugar" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Sugar" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Cappuccino -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="brown_sugarDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/brown_sugar"
+                        style="@style/ProductImage"
+                        android:src="@drawable/brown_sugar" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Brown Sugar" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Espresso -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="whipped_creamDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/whipped_cream"
+                        style="@style/ProductImage"
+                        android:src="@drawable/whipped_cream" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Whipped Cream" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Latte -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="chocolate_syrupDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/chocolate_syrup"
+                        style="@style/ProductImage"
+                        android:src="@drawable/chocolate_syrup" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Chocolate Syrup" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Macchiato -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="cocoa_powderDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/cocoa_powder"
+                        style="@style/ProductImage"
+                        android:src="@drawable/cocoa_powder" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Cocoa Powder" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Mocha -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="honeyDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/honey"
+                        style="@style/ProductImage"
+                        android:src="@drawable/honey" />
+
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Honey" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Iced Espresso -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="mintDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/mint"
+                        style="@style/ProductImage"
+                        android:src="@drawable/mint" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Mint" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Iced  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="vanilla_extractDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/vanilla_extract"
+                        style="@style/ProductImage"
+                        android:src="@drawable/vanilla_extract" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Vanilla Extract" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--  Espresso -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="cinnamonDesc"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/cinnamon"
+                        style="@style/ProductImage"
+                        android:src="@drawable/cinnamon" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:text="$3.5" />
+
+                    <TextView
+                        style="@style/ProductName"
+                        android:text="Cinnamon" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="62dp">
+
+            <!-- Americano -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/americano"
+                        style="@style/ProductImage"
+                        android:src="@drawable/americano" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:layout_alignParentBottom="false"
+                        android:layout_marginRight="10dp"
+                        android:text="$3.5" />
+
+                    <TextView
+                        android:id="@+id/Americano_TextView"
+                        style="@style/ProductName"
+                        android:text="Americano" />
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Americano_TextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="16dp"
+                        android:text="• Water" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Americano_TextView"
+                        android:layout_toRightOf="@id/t1"
+                        android:text="• Espresso" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/d1"
+                        style="@style/DIButton"
+                        android:layout_toLeftOf="@id/q1"
+                        android:onClick="decrement1"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/q1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="8dp"
+                        android:layout_toLeftOf="@id/i1"
+                        android:text="0"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/i1"
+                        style="@style/DIButton"
+                        android:layout_alignParentRight="true"
+                        android:onClick="increment1"
+                        android:text="+" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Cappuccino -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/cappuccino"
+                        style="@style/ProductImage"
+                        android:src="@drawable/cappuccino" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:layout_alignParentBottom="false"
+                        android:layout_marginRight="10dp"
+                        android:text="$3.5" />
+
+                    <TextView
+                        android:id="@+id/Cappuccino_TextView"
+                        style="@style/ProductName"
+                        android:text="Cappuccino" />
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Cappuccino_TextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="16dp"
+                        android:text="• Milk Foam" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Cappuccino_TextView"
+                        android:layout_toRightOf="@id/t2"
+                        android:text="• Steamed Milk" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/t2"
+                        android:layout_marginLeft="8dp"
+                        android:text="• Espresso" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/d2"
+                        style="@style/DIButton"
+                        android:layout_toLeftOf="@id/q2"
+                        android:onClick="decrement2"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/q2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="8dp"
+                        android:layout_toLeftOf="@id/i2"
+                        android:text="0"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/i2"
+                        style="@style/DIButton"
+                        android:layout_alignParentRight="true"
+                        android:onClick="increment2"
+                        android:text="+" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Espresso -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/espresso"
+                        style="@style/ProductImage"
+                        android:src="@drawable/espresso" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:layout_alignParentBottom="false"
+                        android:layout_marginRight="10dp"
+                        android:text="$3.5" />
+
+                    <TextView
+                        android:id="@+id/Espresso_TextView"
+                        style="@style/ProductName"
+                        android:text="Espresso" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Espresso_TextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="16dp"
+                        android:text="• Espresso" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/d3"
+                        style="@style/DIButton"
+                        android:layout_toLeftOf="@id/q3"
+                        android:onClick="decrement3"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/q3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="8dp"
+                        android:layout_toLeftOf="@id/i3"
+                        android:text="0"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/i3"
+                        style="@style/DIButton"
+                        android:layout_alignParentRight="true"
+                        android:onClick="increment3"
+                        android:text="+" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Latte -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/latte"
+                        style="@style/ProductImage"
+                        android:src="@drawable/latte" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:layout_alignParentBottom="false"
+                        android:layout_marginRight="10dp"
+                        android:text="$3.5" />
+
+                    <TextView
+                        android:id="@+id/Latte_TextView"
+                        style="@style/ProductName"
+                        android:text="Latte" />
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Latte_TextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="16dp"
+                        android:text="• Milk Foam" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Latte_TextView"
+                        android:layout_toRightOf="@id/t3"
+                        android:text="• Steamed Milk" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/t3"
+                        android:layout_marginLeft="8dp"
+                        android:text="• Espresso" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/d4"
+                        style="@style/DIButton"
+                        android:layout_toLeftOf="@id/q4"
+                        android:onClick="decrement4"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/q4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="8dp"
+                        android:layout_toLeftOf="@id/i4"
+                        android:text="0"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/i4"
+                        style="@style/DIButton"
+                        android:layout_alignParentRight="true"
+                        android:onClick="increment4"
+                        android:text="+" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Macchiato -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/macchiato"
+                        style="@style/ProductImage"
+                        android:src="@drawable/macchiato" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:layout_alignParentBottom="false"
+                        android:layout_marginRight="10dp"
+                        android:text="$3.5" />
+
+                    <TextView
+                        android:id="@+id/Macchiato_TextView"
+                        style="@style/ProductName"
+                        android:text="Macchiato" />
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Macchiato_TextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="16dp"
+                        android:text="• Milk Foam" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Macchiato_TextView"
+                        android:layout_toRightOf="@id/t4"
+                        android:text="• Espresso" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/d5"
+                        style="@style/DIButton"
+                        android:layout_toLeftOf="@id/q5"
+                        android:onClick="decrement5"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/q5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="8dp"
+                        android:layout_toLeftOf="@id/i5"
+                        android:text="0"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/i5"
+                        style="@style/DIButton"
+                        android:layout_alignParentRight="true"
+                        android:onClick="increment5"
+                        android:text="+" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Mocha -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/mocha"
+                        style="@style/ProductImage"
+                        android:src="@drawable/mocha" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:layout_alignParentBottom="false"
+                        android:layout_marginRight="10dp"
+                        android:text="$3.5" />
+
+                    <TextView
+                        android:id="@+id/Mocha_TextView"
+                        style="@style/ProductName"
+                        android:text="Mocha" />
+
+                    <TextView
+                        android:id="@+id/t5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Mocha_TextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="• Whipped Cream" />
+
+                    <TextView
+                        android:id="@+id/t6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Mocha_TextView"
+                        android:layout_toRightOf="@id/t5"
+                        android:text="• Steamed Milk" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/t5"
+                        android:layout_marginLeft="8dp"
+                        android:text="• Chocolate" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/t6"
+                        android:layout_marginLeft="100dp"
+                        android:text="• Espresso" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/d6"
+                        style="@style/DIButton"
+                        android:layout_toLeftOf="@id/q6"
+                        android:onClick="decrement6"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/q6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="8dp"
+                        android:layout_toLeftOf="@id/i6"
+                        android:text="0"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/i6"
+                        style="@style/DIButton"
+                        android:layout_alignParentRight="true"
+                        android:onClick="increment6"
+                        android:text="+" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Iced Espresso -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25">
+
+                    <ImageView
+                        android:id="@+id/iced_espresso"
+                        style="@style/ProductImage"
+                        android:src="@drawable/iced_espresso" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/Info">
+
+                    <TextView
+                        style="@style/Price"
+                        android:layout_alignParentBottom="false"
+                        android:layout_marginRight="10dp"
+                        android:text="$3.5" />
+
+                    <TextView
+                        android:id="@+id/IcedEspresso_TextView"
+                        style="@style/ProductName"
+                        android:text="Iced Espresso" />
+
+                    <TextView
+                        android:id="@+id/t7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/IcedEspresso_TextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="16dp"
+                        android:text="• Ice" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/IcedEspresso_TextView"
+                        android:layout_toRightOf="@id/t7"
+                        android:text="• Espresso" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/d7"
+                        style="@style/DIButton"
+                        android:layout_toLeftOf="@id/q7"
+                        android:onClick="decrement7"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/q7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="8dp"
+                        android:layout_toLeftOf="@id/i7"
+                        android:text="0"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/i7"
+                        style="@style/DIButton"
+                        android:layout_alignParentRight="true"
+                        android:onClick="increment7"
+                        android:text="+" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

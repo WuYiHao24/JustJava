@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">BuckStar</string>
+
+    <string name="americano_desc">An Americano is a shot of espresso that is diluted with hot water and completed with a light layer of cream at the top.\n\nAmericanos
+        are rich, intense, and distinctive in taste. The strength of the drink is dependent on the number of espresso shots you add. For many, it is the ideal way to
+        indulge in the smoothness of espressos while maintaining the consistency of a drip-brew.\n\nOne of the best benefits of drinking Americanos is the lower-calorie
+        and nonexistent fat counts compared to regular coffee.</string>
+
+    <string name="cappuccino_desc">Cappuccinos are made by layering a balanced ratio of espresso, steamed milk, and milk foam in that order.\nThis is to ensure the
+        cappuccinos’ bold and rich flavors, as well as to maintain its thick, foamy texture.\n\nThis popular drink is known for the latte art decorations that are
+        often drawn into the steamed milk foam.\nIt is also common to add flavored syrups and other toppings, such as chocolate powder, to further sweeten the deal.
+        \n\nIt has been revealed through medical studies that a cup of a cappuccino a day without exceeding 180 ml. Provide excellent health benefits.\nSuch benefits
+        include significantly preventing heart problems and bad cholesterol, while also improving digestion and maintaining healthy blood sugar levels.</string>
+
+    <string name="espresso_desc">Espresso is not necessarily a type of coffee, but a way to make coffee. The difference is the amount of water used to make espressos
+        versus regularly brewed coffee.\n\nBecause they are made with a shot of water instead of a liter of water per cup of ground coffee, espressos are basically
+        highly concentrated coffee. Because of this, you can expect espressos to have a more heightened array of flavors compared to a regular cup of coffee.\n\nThis
+        can mean stronger, toastier, and more bitter cups, which flavors that will be amplified depending on the coffee roast. Regardless, you can expect thicker and
+        creamier textures than coffee, almost like what you see with cappuccinos.\n\nLike with other variations of coffee, there are health benefits when drinking a
+        cup or two a day, and with the added benefit of having little to no calories. Espressos are packed with antioxidants, providing ample protection against
+        infections. Drinking espressos every day can also provide a significant improvement in your concentration and memory.</string>
+
+    <string name="latte_desc">Lattes are versatile in customization, anything from sweet to herbal can be added to them, and latte art can be added to complete the
+        drink.\nLattes are similar to cappuccinos because they are also made with espresso, steamed milk, and milk foam.\n\nThe ratio of ingredients is what separates
+        the two drinks; however: while cappuccinos have equal ratios, lattes have more steamed milk.\nThe ingredients in lattes are also mixed together instead of
+        being layered, like what can be found in cappuccinos. Compared to cappuccinos and the many other espresso-based drinks, lattes are not very strong in taste.
+        \n\nThis is because they are heavier with milk than coffee. Due to being milkier than their counterparts, they are sweeter than most coffee, though still not
+        as sweet as you will find in mochas.\n\nAlso, while cappuccinos are frothy due to the milk foam, lattes are creamy and smooth thanks to the extra helping of
+        steamed milk.\n\nA cup a day can aid in burning fat, and with more natural flavors such as beetroot or turmeric, you can improve your memory and relieve
+        muscle aches.</string>
+
+    <string name="macchiato_desc">There are two different ways to make macchiatos: more espresso than milk to make an espresso macchiato, or more milk than espresso
+        to make a latte macchiato.\n\nThat said, macchiatos are similar to lattes and cappuccinos, and it is not uncommon for people to mistake the three for each
+        other as it is.\n\nThe more popular macchiatos bear the most similarities with lattes because they are both heavies with milk.\nPopular drizzles to add to
+        the creamy drink are vanilla, caramel, and hazelnut.\n\nThe difference between macchiatos and its counterparts is the order in which the ingredients are
+        added.\n\nFor example, lattes add milk to the espresso, but macchiatos do the reverse: espresso is added to milk. In terms of taste, it is generally agreed
+        that macchiatos are more aromatic, and are considered a fair compromise between the strength of espresso and the lighter touch of a cappuccino.\n\nThe
+        espresso macchiatos have a generally bolder and richer taste than cappuccinos, while the latte macchiatos make for fair competitors with lattes in terms
+        of sweet, creamy goodness.\nThe benefits of drinking macchiatos include preventing high blood pressure, maintaining liver health, and promoting weight loss.</string>
+
+    <string name="mocha_desc">Mocha, which is actually short for mochaccino, is a top choice when you want to satisfy your sweet tooth needs.\nThis is another
+        type of espresso beverage, and aptly named for its pleasant combination of sweet chocolate meeting the roasted goodness coffee.\n\nMochas are made with the
+        expected shot of espresso and hot milk, but completed with chocolate additions, and whipped cream at the top.\n\nThe chocolate additions are typically
+        syrups, and other sweeteners such as cocoa powder or sugar.\nMocha coffees often taste far stronger than cappuccinos and lattes. It is regularly mistaken
+        as a stronger, more sugary latte with more calories.\n\nDrinking a cup of mocha daily offers health benefits worth looking into. A very generous, very
+        crucial health benefit mochas offer helps with combating depression.\nOther great benefits to drinking mochas include keeping your liver healthy, overcoming
+        insomnia, and keeping your bones strong. Due to the combination of coffee and chocolate, you can expect immediate energy.</string>
+
+    <string name="iced_espresso_desc">Iced espressos are made by cooling the freshly brewed espresso with cold milk, and then served with ice.\n\nIced espressos
+        are still espressos, so you can expect it to be strong and energize you as expected.\nCompared to the other colder coffee types, you can expect to get the
+        most caffeine out of this beverage. Much like the other cold coffee types, an iced espresso will taste sweeter, smoother, and less acidic than its hotter
+        counterpart.\n\nOne of the best benefits of drinking espresso, regardless of whether it is hot or cold, is the ability to drink it without adding anything to
+        it.\n\nEspressos do not need the addition of creams, flavored syrups, or sugars, in general, to taste great and provide the energy you desire. There are
+        arguments that drinking an espresso, hot or cold, is one of the better health choices you can make when your looking for that daily dose of caffeine.</string>
+
+    <string name="sugar_desc">The classic way to sweeten your coffee.</string>
+
+    <string name="brown_sugar_desc">Brown sugar has a richer flavor than white sugar, beyond just being sweet, which makes it a good complement to your coffee.</string>
+
+    <string name="whipped_cream_desc">Whipped cream can be a perfect addition to regular coffee, espresso, lattes, macchiatos, adding sweetness and creaminess.</string>
+
+    <string name="chocolate_syrup_desc">Mixing some chocolate syrup into your coffee will quickly turn it into a comforting and sweet drink, closely resembling a mug
+        of hot-chocolate in taste.</string>
+
+    <string name="cocoa_powder_desc">If you want that chocolatey flavor but with less sugar, try adding cocoa powder on your coffee.</string>
+
+    <string name="honey_desc">Unlike sugar and other artificial sweeteners, honey has the ability to improve the flavour profile of your coffee while also bringing nutrients
+        and health compounds to your cup.\n\nBoth honey and coffee are great for boosting metabolism, so when mixed together you get a weight-loss promoting morning
+        drink brimming with antioxidant properties.</string>
+
+    <string name="mint_desc">A leaf or two of fresh mint can really bring a refreshing, cool aroma and taste to your coffee.\n\nNot to mention how beneficial mint is proven
+        to be as an ingredient, packed with antibacterial and anti-inflammatory properties.</string>
+
+    <string name="vanilla_extract_desc">An easy way to adding a sugary-floral taste to your coffee while skipping all the processed sugar and added fat, is to add
+        vanilla extract into the drink.\n\nAdding a small helping of this ingredient can add a heavy dash of richness and a more complex blend of flavours to your
+        regular coffee. </string>
+
+    <string name="cinnamon_desc">The warm taste of the spice mixes remarkably well with the bitter flavour of the coffee.\nIt\'s also an ideal topping for people
+        interested in augmenting the taste of their coffee without compromising on calories.\n\nBesides, adding in some cinnamon with your regular cup, can bring several
+        health-enhancing benefits to you like lowering blood glucose and cholesterol levels, helping in fat burning and acting as an antiviral to boost your
+        immunity with.</string>
+
+</resources>

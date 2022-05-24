@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:id="@+id/r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25">
+
+            <ImageView
+                android:id="@+id/productImage"
+                style="@style/ProductImage"
+                android:src="@drawable/americano" />
+        </LinearLayout>
+
+        <RelativeLayout style="@style/Info">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/arrow_button"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_expand" />
+
+            <TextView
+                android:id="@+id/ProductName_TextView"
+                style="@style/ProductName"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ProductName_TextView"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="• Whipped Cream" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ProductName_TextView"
+                android:layout_toRightOf="@id/t1"
+                android:text="• Steamed Milk" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="• Chocolate" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t2"
+                android:layout_alignStart="@id/t2"
+                android:text="• Espresso" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hiddenView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f3e6d9"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toppings"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="44dp"
+                android:text="Quantity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Sugar" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d1"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q1"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i1"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i1"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Brown Sugar" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d2"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q2"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i2"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i2"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Whipped Cream" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d3"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q3"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i3"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i3"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Chocolate Syrup" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d4"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q4"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i4"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i4"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Cocoa Powder" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d5"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q5"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i5"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i5"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Honey" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d6"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q6"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q6"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i6"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i6"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Mint" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d7"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q7"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q7"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i7"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i7"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Vanilla Extract" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d8"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q8"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q8"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i8"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i8"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Cinnamon" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/d9"
+                style="@style/DIButton"
+                android:layout_alignParentBottom="false"
+                android:layout_toLeftOf="@id/q9"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/q9"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toLeftOf="@id/i9"
+                android:gravity="center"
+                android:text="No" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/i9"
+                style="@style/DIButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:text="+" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
