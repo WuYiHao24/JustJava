@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
 
     private int orderCont = 0, currentPage = -1, sum = 0;
     private int orderFragmentChoice = -1, orderFragment2Choice = -1, orderFragment6Choice = -1;
-    private int[] orderFragment3Choice = {0,0,0,0,0,0,0};
+    private int[] orderFragment3Choice = {0, 0, 0, 0, 0, 0, 0};
 
     private boolean menu = true, sendQ = true, sendN = true;
 
@@ -364,6 +364,11 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
     public void cinnamonDesc(View v) {
         AmericanoActivity.choice = 18;
         Intent i = new Intent(MainActivity.this, AmericanoActivity.class);
+        startActivity(i);
+    }
+
+    public void about(View v) {
+        Intent i = new Intent(MainActivity.this, SettingsActivity.class);
         startActivity(i);
     }
 }

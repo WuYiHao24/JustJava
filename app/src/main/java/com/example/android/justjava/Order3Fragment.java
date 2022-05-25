@@ -66,7 +66,7 @@ public class Order3Fragment extends Fragment {
         mCallback = null;
     }
 
-    public int[] getQuantities(){
+    public int[] getQuantities() {
         quantities[0] = q1;
         quantities[1] = q2;
         quantities[2] = q3;
@@ -94,7 +94,7 @@ public class Order3Fragment extends Fragment {
 
     private int increment(int q) {
         if (q < 100) {
-            return q+1;
+            return q + 1;
         } else {
             return 100;
         }
@@ -102,7 +102,7 @@ public class Order3Fragment extends Fragment {
 
     private int decrement(int q) {
         if (q > 0) {
-            return q-1;
+            return q - 1;
         } else {
             return 0;
         }
@@ -127,6 +127,7 @@ public class Order3Fragment extends Fragment {
         q2 = decrement(q2);
         q2TextView.setText(String.valueOf(q2));
     }
+
     public void increment3(View v) {
         q3 = increment(q3);
         q3TextView.setText(String.valueOf(q3));
@@ -136,6 +137,7 @@ public class Order3Fragment extends Fragment {
         q3 = decrement(q3);
         q3TextView.setText(String.valueOf(q3));
     }
+
     public void increment4(View v) {
         q4 = increment(q4);
         q4TextView.setText(String.valueOf(q4));
@@ -145,6 +147,7 @@ public class Order3Fragment extends Fragment {
         q4 = decrement(q4);
         q4TextView.setText(String.valueOf(q4));
     }
+
     public void increment5(View v) {
         q5 = increment(q5);
         q5TextView.setText(String.valueOf(q5));
@@ -154,6 +157,7 @@ public class Order3Fragment extends Fragment {
         q5 = decrement(q5);
         q5TextView.setText(String.valueOf(q5));
     }
+
     public void increment6(View v) {
         q6 = increment(q6);
         q6TextView.setText(String.valueOf(q6));
@@ -163,6 +167,7 @@ public class Order3Fragment extends Fragment {
         q6 = decrement(q6);
         q6TextView.setText(String.valueOf(q6));
     }
+
     public void increment7(View v) {
         q7 = increment(q7);
         q7TextView.setText(String.valueOf(q7));

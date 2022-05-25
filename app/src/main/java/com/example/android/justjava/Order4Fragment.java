@@ -1,6 +1,8 @@
 package com.example.android.justjava;
 
 import android.os.Bundle;
+import android.transition.AutoTransition;
+import android.transition.TransitionManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,8 +10,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.transition.AutoTransition;
-import android.transition.TransitionManager;
 
 import androidx.fragment.app.Fragment;
 
@@ -95,17 +95,13 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q1.getText().toString().equals("No")) {
                                 q1.setText("Low");
-                            }
-                            else if (q1.getText().toString().equals("Low")) {
+                            } else if (q1.getText().toString().equals("Low")) {
                                 q1.setText("Medium");
-                            }
-                            else if (q1.getText().toString().equals("Medium")) {
+                            } else if (q1.getText().toString().equals("Medium")) {
                                 q1.setText("High");
-                            }
-                            else if (q1.getText().toString().equals("High")) {
+                            } else if (q1.getText().toString().equals("High")) {
                                 q1.setText("No");
-                            }
-                            else {
+                            } else {
                                 q1.setText("error");
                             }
                         }
@@ -115,14 +111,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q2.getText().toString().equals("No")) {
                                 q2.setText("Low");
-                            }
-                            else if (q2.getText().toString().equals("Low")) {
+                            } else if (q2.getText().toString().equals("Low")) {
                                 q2.setText("Medium");
-                            }
-                            else if (q2.getText().toString().equals("Medium")) {
+                            } else if (q2.getText().toString().equals("Medium")) {
                                 q2.setText("High");
-                            }
-                            else if (q2.getText().toString().equals("High")) {
+                            } else if (q2.getText().toString().equals("High")) {
                                 q2.setText("No");
                             }
                         }
@@ -132,14 +125,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q3.getText().toString().equals("No")) {
                                 q3.setText("Low");
-                            }
-                            else if (q3.getText().toString().equals("Low")) {
+                            } else if (q3.getText().toString().equals("Low")) {
                                 q3.setText("Medium");
-                            }
-                            else if (q3.getText().toString().equals("Medium")) {
+                            } else if (q3.getText().toString().equals("Medium")) {
                                 q3.setText("High");
-                            }
-                            else if (q3.getText().toString().equals("High")) {
+                            } else if (q3.getText().toString().equals("High")) {
                                 q3.setText("No");
                             }
                         }
@@ -149,14 +139,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q4.getText().toString().equals("No")) {
                                 q4.setText("Low");
-                            }
-                            else if (q4.getText().toString().equals("Low")) {
+                            } else if (q4.getText().toString().equals("Low")) {
                                 q4.setText("Medium");
-                            }
-                            else if (q4.getText().toString().equals("Medium")) {
+                            } else if (q4.getText().toString().equals("Medium")) {
                                 q4.setText("High");
-                            }
-                            else if (q4.getText().toString().equals("High")) {
+                            } else if (q4.getText().toString().equals("High")) {
                                 q4.setText("No");
                             }
                         }
@@ -166,14 +153,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q5.getText().toString().equals("No")) {
                                 q5.setText("Low");
-                            }
-                            else if (q5.getText().toString().equals("Low")) {
+                            } else if (q5.getText().toString().equals("Low")) {
                                 q5.setText("Medium");
-                            }
-                            else if (q5.getText().toString().equals("Medium")) {
+                            } else if (q5.getText().toString().equals("Medium")) {
                                 q5.setText("High");
-                            }
-                            else if (q5.getText().toString().equals("High")) {
+                            } else if (q5.getText().toString().equals("High")) {
                                 q5.setText("No");
                             }
                         }
@@ -183,14 +167,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q6.getText().toString().equals("No")) {
                                 q6.setText("Low");
-                            }
-                            else if (q6.getText().toString().equals("Low")) {
+                            } else if (q6.getText().toString().equals("Low")) {
                                 q6.setText("Medium");
-                            }
-                            else if (q6.getText().toString().equals("Medium")) {
+                            } else if (q6.getText().toString().equals("Medium")) {
                                 q6.setText("High");
-                            }
-                            else if (q6.getText().toString().equals("High")) {
+                            } else if (q6.getText().toString().equals("High")) {
                                 q6.setText("No");
                             }
                         }
@@ -200,14 +181,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q7.getText().toString().equals("No")) {
                                 q7.setText("Low");
-                            }
-                            else if (q7.getText().toString().equals("Low")) {
+                            } else if (q7.getText().toString().equals("Low")) {
                                 q7.setText("Medium");
-                            }
-                            else if (q7.getText().toString().equals("Medium")) {
+                            } else if (q7.getText().toString().equals("Medium")) {
                                 q7.setText("High");
-                            }
-                            else if (q7.getText().toString().equals("High")) {
+                            } else if (q7.getText().toString().equals("High")) {
                                 q7.setText("No");
                             }
                         }
@@ -217,14 +195,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q8.getText().toString().equals("No")) {
                                 q8.setText("Low");
-                            }
-                            else if (q8.getText().toString().equals("Low")) {
+                            } else if (q8.getText().toString().equals("Low")) {
                                 q8.setText("Medium");
-                            }
-                            else if (q8.getText().toString().equals("Medium")) {
+                            } else if (q8.getText().toString().equals("Medium")) {
                                 q8.setText("High");
-                            }
-                            else if (q8.getText().toString().equals("High")) {
+                            } else if (q8.getText().toString().equals("High")) {
                                 q8.setText("No");
                             }
                         }
@@ -234,14 +209,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q9.getText().toString().equals("No")) {
                                 q9.setText("Low");
-                            }
-                            else if (q9.getText().toString().equals("Low")) {
+                            } else if (q9.getText().toString().equals("Low")) {
                                 q9.setText("Medium");
-                            }
-                            else if (q9.getText().toString().equals("Medium")) {
+                            } else if (q9.getText().toString().equals("Medium")) {
                                 q9.setText("High");
-                            }
-                            else if (q9.getText().toString().equals("High")) {
+                            } else if (q9.getText().toString().equals("High")) {
                                 q9.setText("No");
                             }
                         }
@@ -252,14 +224,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q1.getText().toString().equals("No")) {
                                 q1.setText("High");
-                            }
-                            else if (q1.getText().toString().equals("Low")) {
+                            } else if (q1.getText().toString().equals("Low")) {
                                 q1.setText("No");
-                            }
-                            else if (q1.getText().toString().equals("Medium")) {
+                            } else if (q1.getText().toString().equals("Medium")) {
                                 q1.setText("Low");
-                            }
-                            else if (q1.getText().toString().equals("High")) {
+                            } else if (q1.getText().toString().equals("High")) {
                                 q1.setText("Medium");
                             }
                         }
@@ -269,14 +238,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q2.getText().toString().equals("No")) {
                                 q2.setText("High");
-                            }
-                            else if (q2.getText().toString().equals("Low")) {
+                            } else if (q2.getText().toString().equals("Low")) {
                                 q2.setText("No");
-                            }
-                            else if (q2.getText().toString().equals("Medium")) {
+                            } else if (q2.getText().toString().equals("Medium")) {
                                 q2.setText("Low");
-                            }
-                            else if (q2.getText().toString().equals("High")) {
+                            } else if (q2.getText().toString().equals("High")) {
                                 q2.setText("Medium");
                             }
                         }
@@ -286,14 +252,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q3.getText().toString().equals("No")) {
                                 q3.setText("High");
-                            }
-                            else if (q3.getText().toString().equals("Low")) {
+                            } else if (q3.getText().toString().equals("Low")) {
                                 q3.setText("No");
-                            }
-                            else if (q3.getText().toString().equals("Medium")) {
+                            } else if (q3.getText().toString().equals("Medium")) {
                                 q3.setText("Low");
-                            }
-                            else if (q3.getText().toString().equals("High")) {
+                            } else if (q3.getText().toString().equals("High")) {
                                 q3.setText("Medium");
                             }
                         }
@@ -303,14 +266,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q4.getText().toString().equals("No")) {
                                 q4.setText("High");
-                            }
-                            else if (q4.getText().toString().equals("Low")) {
+                            } else if (q4.getText().toString().equals("Low")) {
                                 q4.setText("No");
-                            }
-                            else if (q4.getText().toString().equals("Medium")) {
+                            } else if (q4.getText().toString().equals("Medium")) {
                                 q4.setText("Low");
-                            }
-                            else if (q4.getText().toString().equals("High")) {
+                            } else if (q4.getText().toString().equals("High")) {
                                 q4.setText("Medium");
                             }
                         }
@@ -320,14 +280,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q5.getText().toString().equals("No")) {
                                 q5.setText("High");
-                            }
-                            else if (q5.getText().toString().equals("Low")) {
+                            } else if (q5.getText().toString().equals("Low")) {
                                 q5.setText("No");
-                            }
-                            else if (q5.getText().toString().equals("Medium")) {
+                            } else if (q5.getText().toString().equals("Medium")) {
                                 q5.setText("Low");
-                            }
-                            else if (q5.getText().toString().equals("High")) {
+                            } else if (q5.getText().toString().equals("High")) {
                                 q5.setText("Medium");
                             }
                         }
@@ -337,14 +294,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q6.getText().toString().equals("No")) {
                                 q6.setText("High");
-                            }
-                            else if (q6.getText().toString().equals("Low")) {
+                            } else if (q6.getText().toString().equals("Low")) {
                                 q6.setText("No");
-                            }
-                            else if (q6.getText().toString().equals("Medium")) {
+                            } else if (q6.getText().toString().equals("Medium")) {
                                 q6.setText("Low");
-                            }
-                            else if (q6.getText().toString().equals("High")) {
+                            } else if (q6.getText().toString().equals("High")) {
                                 q6.setText("Medium");
                             }
                         }
@@ -354,14 +308,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q7.getText().toString().equals("No")) {
                                 q7.setText("High");
-                            }
-                            else if (q7.getText().toString().equals("Low")) {
+                            } else if (q7.getText().toString().equals("Low")) {
                                 q7.setText("No");
-                            }
-                            else if (q7.getText().toString().equals("Medium")) {
+                            } else if (q7.getText().toString().equals("Medium")) {
                                 q7.setText("Low");
-                            }
-                            else if (q7.getText().toString().equals("High")) {
+                            } else if (q7.getText().toString().equals("High")) {
                                 q7.setText("Medium");
                             }
                         }
@@ -371,14 +322,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q8.getText().toString().equals("No")) {
                                 q8.setText("High");
-                            }
-                            else if (q8.getText().toString().equals("Low")) {
+                            } else if (q8.getText().toString().equals("Low")) {
                                 q8.setText("No");
-                            }
-                            else if (q8.getText().toString().equals("Medium")) {
+                            } else if (q8.getText().toString().equals("Medium")) {
                                 q8.setText("Low");
-                            }
-                            else if (q8.getText().toString().equals("High")) {
+                            } else if (q8.getText().toString().equals("High")) {
                                 q8.setText("Medium");
                             }
                         }
@@ -388,14 +336,11 @@ public class Order4Fragment extends Fragment {
                         public void onClick(View vi) {
                             if (q9.getText().toString().equals("No")) {
                                 q9.setText("High");
-                            }
-                            else if (q9.getText().toString().equals("Low")) {
+                            } else if (q9.getText().toString().equals("Low")) {
                                 q9.setText("No");
-                            }
-                            else if (q9.getText().toString().equals("Medium")) {
+                            } else if (q9.getText().toString().equals("Medium")) {
                                 q9.setText("Low");
-                            }
-                            else if (q9.getText().toString().equals("High")) {
+                            } else if (q9.getText().toString().equals("High")) {
                                 q9.setText("Medium");
                             }
                         }

@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/coffee"
-        android:title="Coffee"
-        android:icon="@drawable/ic_coffee"/>
+        android:icon="@drawable/ic_coffee"
+        android:title="Coffee" />
     <item
         android:id="@+id/toppings"
-        android:title="Toppings"
-        android:icon="@drawable/ic_sugar"/>
+        android:icon="@drawable/ic_sugar"
+        android:title="Toppings" />
 </menu>

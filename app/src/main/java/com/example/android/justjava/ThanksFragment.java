@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 
 public class ThanksFragment extends Fragment {
 
-    public ThanksFragment(){
+    public ThanksFragment() {
         // require a empty public constructor
     }
 

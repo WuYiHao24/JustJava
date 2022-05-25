@@ -45,7 +45,7 @@ public class AmericanoActivity extends AppCompatActivity {
             relativeView.setVisibility(View.GONE);
             productImage.setMaxHeight(235);
             pNameRelative.setBackgroundColor(Color.TRANSPARENT);
-            pNameRelative.setPadding(6,6,6,48);
+            pNameRelative.setPadding(6, 6, 6, 48);
             scrollView.setBackgroundColor(Color.TRANSPARENT);
         }
 

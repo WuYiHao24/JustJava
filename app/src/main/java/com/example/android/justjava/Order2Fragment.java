@@ -2,19 +2,13 @@ package com.example.android.justjava;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import androidx.fragment.app.Fragment;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
-import java.io.*;
 
 public class Order2Fragment extends Fragment {
 
@@ -31,7 +25,7 @@ public class Order2Fragment extends Fragment {
     boolean ifDelivery = false;
     private int choice = -1;
 
-    public Order2Fragment(){
+    public Order2Fragment() {
         // require a empty public constructor
     }
 
@@ -54,16 +48,14 @@ public class Order2Fragment extends Fragment {
             outerDelivery.setBackgroundColor(Color.TRANSPARENT);
             order.setBackgroundColor(Color.parseColor("#dcdcdc"));
             outerOrder.setBackgroundColor(Color.parseColor("#bebebe"));
-        }
-        else if (choice == 1) {
+        } else if (choice == 1) {
             order.setBackgroundColor(Color.TRANSPARENT);
             outerOrder.setBackgroundColor(Color.TRANSPARENT);
             delivery.setBackgroundColor(Color.TRANSPARENT);
             outerDelivery.setBackgroundColor(Color.TRANSPARENT);
             take_away.setBackgroundColor(Color.parseColor("#dcdcdc"));
             outerTake_away.setBackgroundColor(Color.parseColor("#bebebe"));
-        }
-        else if (choice == 2) {
+        } else if (choice == 2) {
             order.setBackgroundColor(Color.TRANSPARENT);
             outerOrder.setBackgroundColor(Color.TRANSPARENT);
             take_away.setBackgroundColor(Color.TRANSPARENT);
@@ -128,7 +120,7 @@ public class Order2Fragment extends Fragment {
         void messageFromOrder2(int choice2);
     }
 
-    public interface  Order2Comm_2 {
+    public interface Order2Comm_2 {
         void messageFromOrder2_2(boolean ifDelivery);
     }
 

@@ -21,8 +21,8 @@
 
         <TextView
             style="@style/Price"
-            android:text="$3.5"
-            android:layout_alignParentBottom="false" />
+            android:layout_alignParentBottom="false"
+            android:text="$3.5" />
 
         <TextView
             android:id="@+id/productName"

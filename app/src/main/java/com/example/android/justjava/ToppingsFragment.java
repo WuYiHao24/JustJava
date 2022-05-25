@@ -6,11 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
-import java.io.*;
 
 public class ToppingsFragment extends Fragment {
 
-    public ToppingsFragment(){
+    public ToppingsFragment() {
         // require a empty public constructor
     }
 
